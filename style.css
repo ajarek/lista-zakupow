@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:radial-gradient(#eee,#ddd);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.phone{
+    width: 280px;
+    height: 560px;
+    border: 1px solid ;
+    overflow-y:auto ;
+}
+.list-group span{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: red;
+    cursor: pointer;
+   
+}
