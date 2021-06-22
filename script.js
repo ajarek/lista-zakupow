@@ -10,7 +10,7 @@ const displayList=()=>{
     spozywka.forEach(el=>{
         
     const li=document.createElement('li')
-    li.setAttribute('id','spozywkas')
+    li.setAttribute('id','spozywka')
     li.classList.add('list-group-item')
     li.classList.add('list-group-item-action')
     li.innerHTML=`<img src='${el.image}'>${el.name}<span id="del">X</span>`
