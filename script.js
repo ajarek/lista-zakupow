@@ -1,5 +1,6 @@
 import { spozywka } from "./food.js"
 import { chemia } from "./chemia.js"
+import {owoce} from "./owoce.js"
 
 const listGrup=document.querySelector('.list-group')
 
@@ -16,6 +17,17 @@ const displayList=()=>{
     li.innerHTML=`<img src='${el.image}'>${el.name}<span id="del">X</span>`
     listGrup.appendChild(li)
 })
+
+owoce.forEach(elem=>{
+        
+    const li=document.createElement('li')
+    li.setAttribute('id','owoce')
+    li.classList.add('list-group-item')
+    li.classList.add('list-group-item-action')
+    li.innerHTML=`<img src='${elem.image}'>${elem.name}<span id="del">X</span>`
+    listGrup.appendChild(li)
+})
+
 chemia.forEach(elem=>{
         
     const li=document.createElement('li')
