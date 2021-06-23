@@ -39,5 +39,9 @@ export const owoce=[
         name:'Pomidory',
         image:'img/pomidory.png',
     },
+    {
+        name:'Ziemniaki',
+        image:'img/ziemniaki.png',
+    },
     
 ]

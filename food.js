@@ -6,6 +6,11 @@ export const spozywka=[
     },
     {
         
+        name:'Wędlina',
+        image:'img/wedlina.png',
+    },
+    {
+        
         name:'Kiełbasa',
         image:'img/kiełbasa.png',
     },
@@ -83,6 +88,16 @@ export const spozywka=[
         
         name:'Olej',
         image:'img/olej.png',
+    },
+    {
+        
+        name:'Popcorn',
+        image:'img/popcorn.jpg',
+    },
+    {
+        
+        name:'Zupki',
+        image:'img/zupka.png',
     },
     {
         
