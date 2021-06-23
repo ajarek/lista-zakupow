@@ -1,8 +1,33 @@
 export const spozywka=[
     {
         
+        name:'Mięso',
+        image:'img/mieso.png',
+    },
+    {
+        
+        name:'Kiełbasa',
+        image:'img/kiełbasa.png',
+    },
+    {
+        
+        name:'Parówki',
+        image:'img/parówki.jpg',
+    },
+    {
+        
+        name:'Ser żółty',
+        image:'img/ser.png',
+    },
+    {
+        
         name:'Chleb',
         image:'img/chleb.png',
+    },
+    {
+        
+        name:'Actimel',
+        image:'img/actimel.png',
     },
     {
         
@@ -36,6 +61,16 @@ export const spozywka=[
     },
     {
         
+        name:'Ciastka',
+        image:'img/ciastka.png',
+    },
+    {
+        
+        name:'Batony',
+        image:'img/baton.jpg',
+    },
+    {
+        
         name:'Makaron',
         image:'img/makaron.jpg',
     },
@@ -48,5 +83,15 @@ export const spozywka=[
         
         name:'Olej',
         image:'img/olej.png',
+    },
+    {
+        
+        name:'Herbata',
+        image:'img/herbata.png',
+    },
+    {
+        
+        name:'Przyprawy',
+        image:'img/przyprawy.png',
     },
 ]

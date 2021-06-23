@@ -11,6 +11,11 @@ export const chemia=[
     },
     {
         
+        name:'Dezodorant',
+        image:'img/deo.jpg',
+    },
+    {
+        
         name:'Proszek do prania',
         image:'img/proszek.png',
     },
@@ -33,5 +38,10 @@ export const chemia=[
         
         name:'Żel pod prysznic',
         image:'img/żel.png',
+    },
+    {
+        
+        name:'Płyn do naczń',
+        image:'img/ludwik.jpg',
     },
 ]
